@@ -1,0 +1,63 @@
+.properties-search-bar-container {
+  /* background-color: var(--white-primary); */
+}
+.properties-search-bar-tag {
+  padding: 20px;
+  background-color: var(--white-primary);
+  width: fit-content;
+  border-radius: 13px 13px 0px 0px;
+  font-family: "DM Serif Display", serif;
+  color: var(--blue-secondary);
+}
+.properties-search-bar {
+  padding: 20px;
+  background-color: var(--white-primary);
+  align-items: center;
+  border-radius: 0px 13px 13px 13px;
+}
+.properties-search-bar-icon {
+  margin-right: 10px;
+  height: 16px;
+}
+.properties-search-bar-item {
+  align-items: center;
+  border-bottom: 0.5px solid #cbcbcb;
+  padding-bottom: 10px;
+  width: 140px;
+}
+.properties-search-rule {
+  margin: 0px 10px;
+  border: 1px solid var(--blue-secondary);
+  width: 30px;
+  transform: rotate(90deg);
+}
+
+.properties-search-input {
+  border: none;
+  outline: none;
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.properties-search-input::placeholder {
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.properties-search-button {
+  background-color: var(--blue-secondary);
+  color: var(--white-primary);
+  border: 2px solid var(--blue-secondary);
+  border-radius: 9px;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+  font-family: "Be Vietnam Pro", sans-serif;
+  cursor: pointer;
+}
+.properties-search-button:hover {
+  opacity: 0.8;
+}
+.properties-search-icon {
+  height: 23px;
+  border-radius: 9px;
+  background: rgba(203, 242, 255, 0.3);
+  padding: 6px;
+  margin-right: 15px;
+}

@@ -1,4 +1,7 @@
 .home-container {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
 }
 .home-jumbotron-image {
   position: absolute;
@@ -11,4 +14,21 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+.home-jumbotron {
+  position: relative;
+  width: -webkit-fill-available;
+  box-sizing: border-box;
+  height: 100vh;
+  box-sizing: border-box;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.jumbo-header {
+  font-family: "DM Serif Display", serif;
+  font-size: 40px;
+  color: var(--white-primary);
+  text-align: center;
 }
