@@ -1,0 +1,14 @@
+.home-container {
+}
+.home-jumbotron-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-image: url("../IMG/HomeJumbotronBackground.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
