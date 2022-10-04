@@ -31,4 +31,25 @@
   font-size: 40px;
   color: var(--white-primary);
   text-align: center;
+  margin-bottom: 10vh;
+}
+
+.home-jumbo-carousel-controller {
+  margin-top: 10vh;
+  justify-content: space-between;
+  width: 180px;
+}
+.home-jumbo-carousel-dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 1px solid var(--white-primary);
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.home-jumbo-carousel-dot-active {
+  background-color: var(--white-primary);
 }

@@ -11,7 +11,14 @@ export default function Home() {
           <span className="jumbo-header">
             Short Lets and Corporate <br /> Rentals Made Easy
           </span>
-          {/* <PropertiesSearchBar /> */}
+          <PropertiesSearchBar />
+          <div className="home-jumbo-carousel-controller flex-row">
+            <div className="home-jumbo-carousel-dot home-jumbo-carousel-dot-active"></div>
+            <div className="home-jumbo-carousel-dot"></div>
+            <div className="home-jumbo-carousel-dot"></div>
+            <div className="home-jumbo-carousel-dot"></div>
+            <div className="home-jumbo-carousel-dot"></div>
+          </div>
         </div>
       </Container>
     </div>

@@ -1,0 +1,39 @@
+@media screen and (max-width: 1000px) {
+  div.properties-search-bar-item {
+    width: 100px;
+  }
+  button.properties-search-button {
+    width: 140px;
+    height: 45px;
+  }
+  img.properties-search-icon {
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  div.properties-search-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 330px;
+  }
+  div.properties-search-bar-item {
+    width: 100%;
+    height: 50px;
+  }
+  input.properties-search-input {
+    width: -webkit-fill-available;
+    height: 30px;
+  }
+  img.properties-search-bar-icon {
+    height: 22px;
+  }
+  hr.properties-search-rule {
+    display: none;
+  }
+  button.properties-search-button {
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+  }
+}
