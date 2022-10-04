@@ -4,14 +4,16 @@
 @import url("./TopNavBar.css");
 @import url("./Home.css");
 @import url("./PropertiesSearchBar.css");
+@import url("./FeatuedProperties.css");
 
+@import url("./SmallScreens/SmallTopNavBar.css");
 @import url("./SmallScreens/SmallHome.css");
 @import url("./SmallScreens/SmallPropertiesSearchBar.css");
-@import url("./SmallScreens/SmallTopNavBar.css");
+@import url("./SmallScreens/SmallFeaturedProperties.css");
 
-* {
-  /* border: 1px solid red; */
-}
+/* * {
+  border: 1px solid red;
+} */
 body {
   margin: 0;
   padding: 0;

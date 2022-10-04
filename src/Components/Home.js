@@ -4,6 +4,7 @@ import PropertiesSearchBar from "./PropertiesSeachBar";
 import SearchIcon from "../Assets/IMG/Icons/Search.svg";
 import CalendarIcon from "../Assets/IMG/Icons/CalendarWhiteIcon.svg";
 import CreditCardIcon from "../Assets/IMG/Icons/CreditCard.svg";
+import FeaturedProperties from "./FeaturedProperties";
 
 export default function Home() {
   return (
@@ -68,6 +69,8 @@ export default function Home() {
           </div>
         </center>
       </div>
+
+      <FeaturedProperties />
     </div>
   );
 }

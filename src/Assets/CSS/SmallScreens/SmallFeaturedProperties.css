@@ -1,0 +1,9 @@
+@media screen and (max-width: 1030px) {
+  div.featured-properties {
+    flex-direction: column;
+    align-items: center;
+  }
+  div.featured-property {
+    margin: 20px 0px;
+  }
+}
