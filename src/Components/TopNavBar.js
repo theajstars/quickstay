@@ -7,7 +7,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 
 export default function TopNavBar() {
-  const [isMenuActive, setMenuActive] = useState(true);
+  const [isMenuActive, setMenuActive] = useState(false);
   return (
     <div className={"top-nav-container"}>
       <span

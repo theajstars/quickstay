@@ -16,6 +16,7 @@
     flex-direction: column;
     align-items: flex-start;
     width: 330px;
+    box-sizing: border-box;
   }
   div.properties-search-bar-item {
     width: 100%;
