@@ -8,6 +8,7 @@
   border-radius: 13px 13px 0px 0px;
   font-family: "DM Serif Display", serif;
   color: var(--blue-secondary);
+  font-size: 18px;
 }
 .properties-search-bar {
   padding: 20px;
@@ -46,7 +47,7 @@
   border: 2px solid var(--blue-secondary);
   border-radius: 9px;
   align-items: center;
-  width: 140px;
+  width: 170px;
   height: 50px;
   font-family: "Be Vietnam Pro", sans-serif;
   cursor: pointer;
@@ -59,5 +60,5 @@
   border-radius: 9px;
   background: rgba(203, 242, 255, 0.3);
   padding: 6px;
-  margin-right: 15px;
+  margin-right: 25px;
 }

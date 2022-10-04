@@ -11,7 +11,7 @@ export default function Home() {
           <span className="jumbo-header">
             Short Lets and Corporate <br /> Rentals Made Easy
           </span>
-          <PropertiesSearchBar />
+          {/* <PropertiesSearchBar /> */}
         </div>
       </Container>
     </div>

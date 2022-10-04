@@ -4,6 +4,7 @@
   background-color: var(--blue-primary);
   top: 0;
   left: 0;
+  z-index: 9999999;
 }
 .top-nav {
   justify-content: space-between;
