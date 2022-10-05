@@ -9,6 +9,7 @@
   border: 1px solid transparent;
   transition-duration: 0.12s;
   cursor: pointer;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
 .home-button-default:hover {
   opacity: 0.85;

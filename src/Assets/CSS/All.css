@@ -7,6 +7,8 @@
 @import url("./FeatuedProperties.css");
 @import url("./SmartProperties.css");
 
+@import url("./AboutQuickstay.css");
+
 @import url("./SmallScreens/SmallTopNavBar.css");
 @import url("./SmallScreens/SmallHome.css");
 @import url("./SmallScreens/SmallPropertiesSearchBar.css");
@@ -31,7 +33,11 @@ body {
 .btn-light-blue {
   background-color: var(--blue-secondary);
   border-color: var(--blue-secondary);
-  font-family: "Be Vietnam Pro", sans-serif;
+}
+.btn-dark-blue {
+  background-color: var(--blue-primary);
+  color: var(--white-primary);
+  border-color: var(--blue-primary);
 }
 .text-white {
   color: var(--white-primary);

@@ -1,15 +1,17 @@
 .smart-property-section-background {
   background: url("../IMG/SmarterProperty.svg");
-  padding: 100px 0px;
+  /* padding: 100px 0px; */
   box-sizing: border-box;
   width: 100%;
   align-items: center;
   justify-content: center;
+  height: 100%;
+  height: 800px;
+  padding-bottom: 100px;
 }
 .smart-property-section-container {
   box-sizing: border-box;
   width: 100%;
-
   padding: 0px 20px;
   justify-content: space-between;
   height: 400px;
