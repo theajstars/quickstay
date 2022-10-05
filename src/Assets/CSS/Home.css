@@ -1,6 +1,18 @@
 .home-container {
   box-sizing: border-box;
 }
+.home-button-default {
+  height: 45px;
+  width: 170px;
+  border-radius: 7px;
+  font-size: 15px;
+  border: 1px solid transparent;
+  transition-duration: 0.12s;
+  cursor: pointer;
+}
+.home-button-default:hover {
+  opacity: 0.85;
+}
 .home-jumbotron-image {
   position: absolute;
   top: 0;

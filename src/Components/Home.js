@@ -5,6 +5,7 @@ import SearchIcon from "../Assets/IMG/Icons/Search.svg";
 import CalendarIcon from "../Assets/IMG/Icons/CalendarWhiteIcon.svg";
 import CreditCardIcon from "../Assets/IMG/Icons/CreditCard.svg";
 import FeaturedProperties from "./FeaturedProperties";
+import SmartProperty from "./SmartProperty";
 
 export default function Home() {
   return (
@@ -71,6 +72,7 @@ export default function Home() {
       </div>
 
       <FeaturedProperties />
+      <SmartProperty />
     </div>
   );
 }

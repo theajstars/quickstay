@@ -5,6 +5,7 @@
 @import url("./Home.css");
 @import url("./PropertiesSearchBar.css");
 @import url("./FeatuedProperties.css");
+@import url("./SmartProperties.css");
 
 @import url("./SmallScreens/SmallTopNavBar.css");
 @import url("./SmallScreens/SmallHome.css");
@@ -25,4 +26,13 @@ body {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.btn-light-blue {
+  background-color: var(--blue-secondary);
+  border-color: var(--blue-secondary);
+  font-family: "Be Vietnam Pro", sans-serif;
+}
+.text-white {
+  color: var(--white-primary);
 }

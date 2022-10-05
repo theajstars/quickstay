@@ -159,6 +159,9 @@ export default function FeaturedProperties() {
               </div>
             </div>
           </div>
+          <button className="home-button-default btn-light-blue text-white">
+            View All Property
+          </button>
         </center>
       </Container>
     </div>
