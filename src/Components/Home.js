@@ -1,5 +1,6 @@
+import { useState, useEffect } from "react";
 import { Container } from "@mui/material";
-import { motion } from "framer-motion";
+
 import PropertiesSearchBar from "./PropertiesSeachBar";
 import SearchIcon from "../Assets/IMG/Icons/Search.svg";
 import CalendarIcon from "../Assets/IMG/Icons/CalendarWhiteIcon.svg";
@@ -10,6 +11,23 @@ import AboutQuickstay from "./AboutQuickstay";
 import Footer from "./Footer";
 
 export default function Home() {
+  const [isScrolled, setScrolled] = useState(true);
+  useEffect(() => {
+    document.body.onscroll = function (e) {
+      const scrolledPosition = window.scrollY;
+      if (scrolledPosition > 500) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+  }, [window]);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+    });
+  };
   return (
     <div className="home-container">
       <Container maxWidth="xl">
@@ -77,6 +95,11 @@ export default function Home() {
       <SmartProperty />
       <AboutQuickstay />
       <Footer />
+      {isScrolled && (
+        <span className="scroll-to-top flex-row" onClick={scrollToTop}>
+          <i className="far fa-chevron-up"></i>
+        </span>
+      )}
     </div>
   );
 }

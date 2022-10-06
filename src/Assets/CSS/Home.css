@@ -149,3 +149,21 @@
   border-radius: 50%;
   font-family: "Inter", sans-serif;
 }
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  color: var(--white-primary);
+  background-color: var(--blue-primary);
+  font-size: 25px;
+  right: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition-duration: 0.12s;
+}
+.scroll-to-top:hover {
+  opacity: 0.9;
+}
