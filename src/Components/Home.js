@@ -36,6 +36,9 @@ export default function Home() {
     <>
       <motion.div
         className="auth-modal"
+        onClick={() => {
+          setAuthModalVisible(false);
+        }}
         initial={{
           scale: 0,
         }}

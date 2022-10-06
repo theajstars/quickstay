@@ -125,7 +125,14 @@ export default function Login({ passRoute }) {
             and book a place faster next time. Property owners can also register
             here to create a listing.
           </div>
-          <button className="auth-button-default">Register</button>
+          <button
+            className="auth-button-default"
+            onClick={() => {
+              passRoute("register");
+            }}
+          >
+            Register
+          </button>
         </div>
       </div>
     </div>
