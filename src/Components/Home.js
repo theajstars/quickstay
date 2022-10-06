@@ -7,6 +7,7 @@ import CreditCardIcon from "../Assets/IMG/Icons/CreditCard.svg";
 import FeaturedProperties from "./FeaturedProperties";
 import SmartProperty from "./SmartProperty";
 import AboutQuickstay from "./AboutQuickstay";
+import Footer from "./Footer";
 
 export default function Home() {
   return (
@@ -75,6 +76,7 @@ export default function Home() {
       <FeaturedProperties />
       <SmartProperty />
       <AboutQuickstay />
+      <Footer />
     </div>
   );
 }
