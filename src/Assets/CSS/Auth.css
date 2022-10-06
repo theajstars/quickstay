@@ -1,0 +1,39 @@
+.auth-container {
+  position: fixed;
+  width: 900px;
+  height: 600px;
+  top: 50%;
+  border-radius: 10px;
+  left: 50%;
+  margin-left: -450px;
+  margin-top: -300px;
+  background-color: var(--white-primary);
+  z-index: 99999999;
+}
+.auth-modal {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 9999999;
+}
+
+.auth-button-default {
+  background-color: var(--blue-primary);
+  color: var(--white-primary);
+  font-size: 17px;
+  outline: none;
+  border: 2px solid var(--blue-primary);
+  width: 100%;
+  height: 45px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  cursor: pointer;
+  transition-duration: 0.12s;
+}
+.auth-button-default:hover {
+  background-color: var(--white-primary);
+  color: var(--blue-primary);
+}

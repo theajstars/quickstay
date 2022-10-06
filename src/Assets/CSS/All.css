@@ -10,6 +10,9 @@
 @import url("./AboutQuickstay.css");
 @import url("./Footer.css");
 
+@import url("./Auth.css");
+@import url("./Login.css");
+
 @import url("./SmallScreens/SmallTopNavBar.css");
 @import url("./SmallScreens/SmallHome.css");
 @import url("./SmallScreens/SmallPropertiesSearchBar.css");
