@@ -37,3 +37,61 @@
   background-color: var(--white-primary);
   color: var(--blue-primary);
 }
+
+@media screen and (max-width: 950px) {
+  div.auth-container {
+    width: 90vw;
+    margin-left: -45vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  div.login-container-left-container {
+    flex-direction: column;
+    padding-top: 18px;
+  }
+  span.auth-container-header {
+    font-size: 30px;
+    margin-bottom: 2px;
+  }
+  div.social-login-buttons {
+    display: none;
+  }
+  div.small-social-login-buttons {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+  }
+  button.small-social-login-button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white-primary);
+    border-radius: 3px;
+    border: 0.2pt solid var(--gray-secondary);
+    cursor: pointer;
+  }
+  button.small-social-login-button:hover {
+    opacity: 0.8;
+  }
+  img.small-social-login-button-icon {
+    width: 25px;
+    height: 25px;
+  }
+  img.login-rafiki-image {
+    display: none;
+  }
+  div.login-subtext {
+    display: none;
+  }
+  span.auth-container-sub-header {
+    padding: 0px;
+    margin-bottom: 20px;
+  }
+  div.login-container-right {
+    box-sizing: border-box;
+  }
+}
